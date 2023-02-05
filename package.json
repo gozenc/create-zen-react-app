@@ -1,0 +1,37 @@
+{
+    "name": "create-zen-react-app",
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "bin": {
+        "create-zen-react-app": "./bin/create-zen-react-app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fatihgozenc/create-zen-react-app.git",
+        "directory": "packages/create-zen-react-app",
+        "bugs": {
+            "url": "https://github.com/fatihgozenc/create-zen-react-app/issues"
+        },
+        "homepage": "https://github.com/fatihgozenc/create-zen-react-app#readme"
+    },
+    "scripts": {
+        "build": "zen-react-scripts build",
+        "dev": "zen-react-scripts dev",
+        "start": "zen-react-scripts dev",
+        "local": "zen-react-scripts local"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.20.1",
+        "preact": "^10.11.3",
+        "react-router-dom": "^6.4.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "zen-react-scripts": "^0.1.8"
+    },
+    "browserslist": "edge >= 13, firefox >= 50, and_ff >= 50, chrome >= 49, and_chr >= 49, ios >= 9.4, safari >= 9.4, samsung >= 5, and_uc >= 11.8, opera >= 40, op_mob >= 40, baidu >= 7"
+}
