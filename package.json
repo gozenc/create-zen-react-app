@@ -1,7 +1,7 @@
 {
     "name": "create-zen-react-app",
     "version": "0.0.1",
-    "main": "index.js",
+    "main": "index.tsx",
     "license": "MIT",
     "bin": {
         "create-zen-react-app": "./bin/create-zen-react-app.js"
